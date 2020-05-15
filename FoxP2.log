@@ -1,0 +1,217 @@
+IQ-TREE version 1.3.11.1 for Linux 64-bit built Feb  1 2016
+Copyright (c) 2011-2015 Nguyen Lam Tung, Olga Chernomor, Arndt von Haeseler and Bui Quang Minh.
+
+Host:    ron (AVX2, FMA3, 503 GB RAM)
+Command: iqtree -s mafft_foxp2_output.fa -m LG -bb 1000 -pre FoxP2
+Seed:    626798 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Wed May 13 06:50:56 2020
+Kernel:  AVX
+
+NOTE: Consider using the multicore version because your CPU has 72 cores!
+
+Reading alignment file mafft_foxp2_output.fa ... Fasta format detected
+Alignment most likely contains protein sequences
+Alignment has 49 sequences with 800 columns and 344 patterns (115 informative sites)
+                         Gap/Ambiguity  Composition  p-value
+   1  Burrowing_owl_1            8.88%    passed     99.94%
+   2  Burrowing_owl_2           10.88%    passed     99.68%
+   3  Burrowing_owl_3           11.00%    passed    100.00%
+   4  Burrowing_owl_4           13.63%    passed     99.98%
+   5  Burrowing_owl_5           14.37%    passed     98.93%
+   6  Burrowing_owl_6           14.62%    passed    100.00%
+   7  Burrowing_owl_7           15.62%    passed     99.10%
+   8  Burrowing_owl_8           21.62%    passed     82.10%
+   9  Burrowing_owl_9           25.87%    passed     44.07%
+  10  Burrowing_owl_10          34.12%    passed     47.60%
+  11  Budgeriger_1              11.50%    passed     99.92%
+  12  Chicken_1                 35.88%    passed     66.23%
+  13  Darkeyed_junco_1          11.12%    passed     99.64%
+  14  Golden_eagle_1            38.00%    passed     15.00%
+  15  Japanese_quail_1          13.88%    passed    100.00%
+  16  Japanese_quail_2          15.62%    passed     99.06%
+  17  Japanese_quail_3          17.50%    passed     99.82%
+  18  Japanese_quail_4          17.62%    passed     99.92%
+  19  Japanese_quail_5          21.75%    passed     79.03%
+  20  Japanese_quail_6          25.12%    passed     35.65%
+  21  Japanese_quail_7          39.88%    failed      0.13%
+  22  Japanese_quail_8          80.88%    failed      2.27%
+  23  Japanese_quail_9          80.88%    failed      2.27%
+  24  Mallard_1                  9.50%    passed    100.00%
+  25  Mallard_2                 16.50%    passed     99.29%
+  26  Mallard_3                 21.38%    passed     80.16%
+  27  Mallard_4                  8.75%    passed     99.87%
+  28  Mallard_5                 10.38%    passed     99.75%
+  29  Mallard_6                 10.75%    passed     99.46%
+  30  Mallard_7                 13.50%    passed     99.97%
+  31  Mallard_8                 16.50%    passed     99.60%
+  32  Mallard_9                 22.75%    passed     19.52%
+  33  Mallard_10                34.00%    passed     39.96%
+  34  Common_canary_1           14.62%    passed     97.88%
+  35  Common_canary_2           19.50%    passed     99.98%
+  36  Common_canary_3           46.50%    failed      0.00%
+  37  Blue_tit_1                26.25%    passed     99.95%
+  38  Blue_tit_2                38.50%    passed      8.53%
+  39  Whitethroated_sparrow_1   27.12%    passed     99.92%
+  40  Yellowbilled_parrot_1     11.25%    passed     99.95%
+  41  Yellowbilled_parrot_2     14.50%    passed    100.00%
+  42  Yellowbilled_parrot_3     21.75%    passed     59.91%
+  43  Yellowbilled_parrot_4     49.62%    failed      0.00%
+  44  Bengalese_finch_1         25.62%    passed     99.31%
+  45  Bengalese_finch_2         38.50%    passed      8.53%
+  46  Zebra_finch_1             13.63%    passed     99.97%
+  47  Zebra_finch_2             11.38%    passed     99.85%
+  48  Zebra_finch_3             11.12%    passed     99.64%
+  49  American_ostrich_1        36.00%    passed     98.93%
+WARNING: 2 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                     23.47%  5 sequences failed composition chi2 test (p-value<5%; df=19)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.011 seconds
+Generating 1000 samples for ultrafast bootstrap...
+Max candidate trees (tau): 4900
+
+NOTE: 4 MB RAM is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -5856.436
+Optimal log-likelihood: -5751.548
+Parameters optimization took 1 rounds (0.179 sec)
+
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Computing ML distances based on estimated model parameters... 0.080 sec
+Computing BIONJ tree...
+0.001 seconds
+Log-likelihood of BIONJ tree: -5968.311
+Generating 98 parsimony trees... 0.646 seconds 100 distinct starting trees
+Computing log-likelihood of 100 initial trees ... 3.592 seconds
+Optimizing top 20 initial trees with NNI...
+Iteration 1 / LogL: -5678.931 / Time: 0h:0m:5s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -5678.805
+Iteration 2 / LogL: -5688.276 / Time: 0h:0m:5s
+Iteration 3 / LogL: -5672.955 / Time: 0h:0m:6s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 3: -5672.907
+Iteration 4 / LogL: -5664.245 / Time: 0h:0m:6s
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 4: -5664.225
+Iteration 5 / LogL: -5691.058 / Time: 0h:0m:6s
+Iteration 6 / LogL: -5696.052 / Time: 0h:0m:7s
+Iteration 7 / LogL: -5681.580 / Time: 0h:0m:7s
+Iteration 8 / LogL: -5698.511 / Time: 0h:0m:7s
+Iteration 9 / LogL: -5678.474 / Time: 0h:0m:8s
+Iteration 10 / LogL: -5698.407 / Time: 0h:0m:8s
+Iteration 11 / LogL: -5697.307 / Time: 0h:0m:8s
+Iteration 12 / LogL: -5697.481 / Time: 0h:0m:9s
+Iteration 13 / LogL: -5704.227 / Time: 0h:0m:9s
+Iteration 14 / LogL: -5700.179 / Time: 0h:0m:9s
+Iteration 15 / LogL: -5690.980 / Time: 0h:0m:9s
+Iteration 16 / LogL: -5705.126 / Time: 0h:0m:9s
+Iteration 17 / LogL: -5700.211 / Time: 0h:0m:10s
+Iteration 18 / LogL: -5693.469 / Time: 0h:0m:10s
+Iteration 19 / LogL: -5687.649 / Time: 0h:0m:11s
+Iteration 20 / LogL: -5703.164 / Time: 0h:0m:11s
+Average CPU time for 1 NNI search: 0.331
+Finish initializing candidate tree set. Number of distinct locally optimal trees: 20
+Current best tree score: -5664.225 / CPU time: 10.852
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -5681.430 / Time: 0h:0m:15s (0h:0m:38s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 38: -5660.476
+Iteration 40 / LogL: -5657.942 / Time: 0h:0m:19s (0h:0m:48s left)
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 40: -5657.568
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 42: -5656.590
+Estimate model parameters (epsilon = 0.010)
+BETTER TREE FOUND at iteration 44: -5656.445
+Iteration 50 / LogL: -5656.548 / Time: 0h:0m:22s (0h:0m:43s left)
+NOTE: 8526 bootstrap candidate trees evaluated (logl-cutoff: -5682.945)
+Iteration 60 / LogL: -5668.172 / Time: 0h:0m:26s (0h:0m:37s left)
+Iteration 70 / LogL: -5676.711 / Time: 0h:0m:29s (0h:0m:31s left)
+Iteration 80 / LogL: -5667.826 / Time: 0h:0m:33s (0h:0m:27s left)
+Iteration 90 / LogL: -5681.441 / Time: 0h:0m:36s (0h:0m:22s left)
+Iteration 100 / LogL: -5656.634 / Time: 0h:0m:39s (0h:0m:17s left)
+NOTE: 19116 bootstrap candidate trees evaluated (logl-cutoff: 0.000)
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.972
+Iteration 110 / LogL: -5666.001 / Time: 0h:0m:43s (0h:0m:35s left)
+Iteration 120 / LogL: -5656.451 / Time: 0h:0m:46s (0h:0m:31s left)
+Iteration 130 / LogL: -5656.724 / Time: 0h:0m:50s (0h:0m:27s left)
+Iteration 140 / LogL: -5656.445 / Time: 0h:0m:53s (0h:0m:23s left)
+Iteration 150 / LogL: -5691.098 / Time: 0h:0m:57s (0h:0m:19s left)
+NOTE: 32868 bootstrap candidate trees evaluated (logl-cutoff: -5798.121)
+Iteration 160 / LogL: -5656.583 / Time: 0h:1m:0s (0h:0m:15s left)
+Iteration 170 / LogL: -5721.158 / Time: 0h:1m:4s (0h:0m:11s left)
+Iteration 180 / LogL: -5656.444 / Time: 0h:1m:7s (0h:0m:7s left)
+Iteration 190 / LogL: -5676.498 / Time: 0h:1m:11s (0h:0m:3s left)
+Iteration 200 / LogL: -5656.675 / Time: 0h:1m:14s (0h:0m:0s left)
+NOTE: 48769 bootstrap candidate trees evaluated (logl-cutoff: 0.000)
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.970
+Iteration 210 / LogL: -5662.908 / Time: 0h:1m:18s (0h:0m:33s left)
+Iteration 220 / LogL: -5656.666 / Time: 0h:1m:22s (0h:0m:30s left)
+Iteration 230 / LogL: -5676.625 / Time: 0h:1m:25s (0h:0m:26s left)
+Iteration 240 / LogL: -5656.675 / Time: 0h:1m:29s (0h:0m:22s left)
+Iteration 250 / LogL: -5678.810 / Time: 0h:1m:32s (0h:0m:18s left)
+NOTE: 65036 bootstrap candidate trees evaluated (logl-cutoff: 0.000)
+Iteration 260 / LogL: -5657.298 / Time: 0h:1m:36s (0h:0m:14s left)
+Iteration 270 / LogL: -5656.637 / Time: 0h:1m:39s (0h:0m:11s left)
+Iteration 280 / LogL: -5668.357 / Time: 0h:1m:43s (0h:0m:7s left)
+Iteration 290 / LogL: -5974.279 / Time: 0h:1m:47s (0h:0m:3s left)
+Iteration 300 / LogL: -5656.851 / Time: 0h:1m:50s (0h:0m:0s left)
+NOTE: 81617 bootstrap candidate trees evaluated (logl-cutoff: 0.000)
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.987
+Iteration 310 / LogL: -5656.671 / Time: 0h:1m:54s (0h:0m:33s left)
+Iteration 320 / LogL: -5656.474 / Time: 0h:1m:57s (0h:0m:29s left)
+Iteration 330 / LogL: -5657.569 / Time: 0h:2m:0s (0h:0m:25s left)
+Iteration 340 / LogL: -5656.673 / Time: 0h:2m:4s (0h:0m:21s left)
+Iteration 350 / LogL: -5656.685 / Time: 0h:2m:8s (0h:0m:18s left)
+NOTE: 97697 bootstrap candidate trees evaluated (logl-cutoff: 0.000)
+Iteration 360 / LogL: -5657.324 / Time: 0h:2m:11s (0h:0m:14s left)
+Iteration 370 / LogL: -5695.217 / Time: 0h:2m:15s (0h:0m:10s left)
+Iteration 380 / LogL: -5687.596 / Time: 0h:2m:18s (0h:0m:7s left)
+Iteration 390 / LogL: -5690.064 / Time: 0h:2m:22s (0h:0m:3s left)
+Iteration 400 / LogL: -5657.092 / Time: 0h:2m:26s (0h:0m:0s left)
+NOTE: 114127 bootstrap candidate trees evaluated (logl-cutoff: 0.000)
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.997
+TREE SEARCH COMPLETED AFTER 400 ITERATIONS / Time: 0h:2m:26s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -5656.444
+Optimal log-likelihood: -5656.443
+Parameters optimization took 1 rounds (0.033 sec)
+
+BEST SCORE FOUND : -5656.443
+Creating bootstrap support values...
+Split supports printed to NEXUS file FoxP2.splits.nex
+Total tree length: 0.708
+
+Total number of iterations: 400
+CPU time used for tree search: 145.500 sec (0h:2m:25s)
+Wall-clock time used for tree search: 145.541 sec (0h:2m:25s)
+Total CPU time used: 146.224 sec (0h:2m:26s)
+Total wall-clock time used: 146.272 sec (0h:2m:26s)
+
+Computing bootstrap consensus tree...
+Reading input file FoxP2.splits.nex...
+49 taxa and 1170 splits.
+Consensus tree written to FoxP2.contree
+Log-likelihood of consensus tree: -5656.454
+Reading input trees file FoxP2.contree
+
+Analysis results written to: 
+  IQ-TREE report:                FoxP2.iqtree
+  Maximum-likelihood tree:       FoxP2.treefile
+  Likelihood distances:          FoxP2.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          FoxP2.splits.nex
+  Consensus tree:                FoxP2.contree
+  Screen log file:               FoxP2.log
+
+Date and Time: Wed May 13 06:53:23 2020
