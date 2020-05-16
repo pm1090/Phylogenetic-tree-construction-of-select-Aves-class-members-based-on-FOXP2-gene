@@ -1,4 +1,5 @@
 # Phylogenetic tree construction based on *FOXP2* gene
+
 In this project a phylogenetic tree was created from a multiple sequence alignment of peptide sequences for the forkhead box P2 transcription factor from 14 bird species.  All animals have orthologous sequences for this gene.  The goal of this project was to create a phylogenetic tree based upon the *FOXP2* gene using selected members of the Aves class. This was accomplished by obtaining peptide sequences for the forkheadbox protein, performing a multiple sequence alignment with them, and using the MSA to create the tree. 
 
 To start, a directory was made on Ron for the project.
