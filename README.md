@@ -8,63 +8,63 @@ To start, a directory was made on Ron for the project.
 A Git repository was initiated in /home/gen7112020/pm1090g71120/Final_Project/.git/
 > git init
 
-To accomplish the goal of the project, 14 protein sequence sets were acquired from Ensembl, one of which was the protein set for Struthio camelus australis (the American ostrich) to serve as the outgroup in the tree.  
+To accomplish the goal of the project, 14 protein sequence sets were acquired from Ensembl, one of which was the protein set for *Struthio camelus australis* (the American ostrich) to serve as the outgroup in the tree.  
 
 **Data:**
 
-•	African ostrich (Struthio camelus australis)
+•	African ostrich (*Struthio camelus australis*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/struthio_camelus_australis/pep/Struthio_camelus_australis.ASM69896v1.pep.all.fa.gz
 
-•	Zebra finch (Taeniopygia guttata)
+•	Zebra finch (*Taeniopygia guttata*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/taeniopygia_guttata/pep/Taeniopygia_guttata.bTaeGut1_v1.p.pep.all.fa.gz
 
-•	White-throated sparrow (Zonotrichia albicollis)
+•	White-throated sparrow (*Zonotrichia albicollis*)
 
 ftp://ftp.ensembl.org/pub/release100/fasta/zonotrichia_albicollis/pep/Zonotrichia_albicollis.Zonotrichia_albicollis-1.0.1.pep.all.fa.gz
 
-•	Bengalese finch (Lonchura striata domestica)
+•	Bengalese finch (*Lonchura striata domestica*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/lonchura_striata_domestica/pep/Lonchura_striata_domestica.LonStrDom1.pep.all.fa.gz
 
-•	Blue tit (Cyanistes caeruleus)
+•	Blue tit (*Cyanistes caeruleus*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/cyanistes_caeruleus/pep/Cyanistes_caeruleus.cyaCae2.pep.all.fa.gz
 
-•	Common canary (Serinus canaria)
+•	Common canary (*Serinus canaria*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/serinus_canaria/pep/Serinus_canaria.SCA1.pep.all.fa.gz
 
-•	Dark-eyed junco (Junco hyemalis)
+•	Dark-eyed junco (*Junco hyemalis*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/junco_hyemalis/pep/Junco_hyemalis.ASM382977v1.pep.all.fa.gz
 
-•	Budgerigar (Melopsittacus undulatus)
+•	Budgerigar (*Melopsittacus undulatus*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/melopsittacus_undulatus/pep/Melopsittacus_undulatus.Melopsittacus_undulatus_6.3.pep.all.fa.gz
 
-•	Yellow-billed parrot (Amazona collaria)
+•	Yellow-billed parrot (*Amazona collaria*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/amazona_collaria/pep/Amazona_collaria.ASM394721v1.pep.all.fa.gz
 
-•	Japanese quail (Coturnix japonica)
+•	Japanese quail (*Coturnix japonica*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/coturnix_japonica/pep/Coturnix_japonica.Coturnix_japonica_2.0.pep.all.fa.gz
 
-•	Burrowing owl (Athene cunicularia)
+•	Burrowing owl (*Athene cunicularia*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/athene_cunicularia/pep/Athene_cunicularia.athCun1.pep.all.fa.gz
 
-•	Chicken (Gallus gallus)
+•	Chicken (*Gallus gallus*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/gallus_gallus/pep/Gallus_gallus.GRCg6a.pep.all.fa.gz
 
-•	Golden eagle (Aquila chrysaetos chrysaetos)
+•	Golden eagle (*Aquila chrysaetos chrysaetos*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/aquila_chrysaetos_chrysaetos/pep/Aquila_chrysaetos_chrysaetos.bAquChr1.2.pep.all.fa.gz
 
-•	Mallard (Anas platyrhynchos)
+•	Mallard (*Anas platyrhynchos*)
 
 ftp://ftp.ensembl.org/pub/release-100/fasta/anas_platyrhynchos/pep/Anas_platyrhynchos.ASM874695v1.pep.all.fa.gz
 
